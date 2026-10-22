@@ -1132,7 +1132,8 @@ h2 { letter-spacing: -.025em; }
 
 /* логотип */
 .brand-mark { background: var(--accent); border: var(--ink-line); box-shadow: 2px 2px 0 var(--text); }
-.brand-name { font-family: var(--font-head); letter-spacing: -.01em; }
+.brand-name { font-family: var(--font-head); letter-spacing: -.02em; font-size: .9rem; overflow-wrap: normal; word-break: keep-all; }
+@media (min-width: 480px) { .brand-name { font-size: 1.0625rem; } }
 
 /* кнопки: плоская заливка и жёсткая тень, при нажатии "вдавливаются" */
 .btn { border-width: 1.5px; border-color: var(--text); letter-spacing: .005em; }
